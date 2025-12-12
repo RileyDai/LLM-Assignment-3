@@ -75,7 +75,7 @@ The project is fully containerized for reproducibility.
 
 ```bash
 docker build -t rlhf-assignment .
-docker run --gpus all -it rlhf-assignment
+docker run -it rlhf-assignment
 ```
 Option 2: Local Setup
 ```bash
